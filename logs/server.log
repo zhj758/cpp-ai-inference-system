@@ -1,0 +1,8 @@
+[2026-05-22 10:00:01] INFO Server started
+[2026-05-22 10:01:23] WARNING Disk usage 85%
+[2026-05-22 10:02:45] ERROR Connection refused from 192.168.1.5
+[2026-05-22 10:03:12] INFO User login: admin
+[2026-05-22 10:04:56] ERROR Timeout while connecting to database
+[2026-05-22 10:05:30] INFO Backup completed
+[2026-05-22 10:06:11] WARNING Memory usage 92%
+[2026-05-22 10:07:01] ERROR Failed to send email
