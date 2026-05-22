@@ -1,0 +1,4 @@
+/home/zhj/projects/ai_deploy/build/CMakeFiles/ai_demo.dir
+/home/zhj/projects/ai_deploy/build/CMakeFiles/container_demo.dir
+/home/zhj/projects/ai_deploy/build/CMakeFiles/edit_cache.dir
+/home/zhj/projects/ai_deploy/build/CMakeFiles/rebuild_cache.dir
