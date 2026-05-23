@@ -41,4 +41,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ai_demo.dir/DependInfo.cmake"
   "CMakeFiles/container_demo.dir/DependInfo.cmake"
+  "CMakeFiles/linked_list.dir/DependInfo.cmake"
+  "CMakeFiles/smart_ptr.dir/DependInfo.cmake"
+  "CMakeFiles/test_logger.dir/DependInfo.cmake"
   )

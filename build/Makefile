@@ -142,6 +142,45 @@ container_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_demo.dir/build.make CMakeFiles/container_demo.dir/build
 .PHONY : container_demo/fast
 
+#=============================================================================
+# Target rules for targets named linked_list
+
+# Build rule for target.
+linked_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linked_list
+.PHONY : linked_list
+
+# fast build rule for target.
+linked_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/build
+.PHONY : linked_list/fast
+
+#=============================================================================
+# Target rules for targets named smart_ptr
+
+# Build rule for target.
+smart_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smart_ptr
+.PHONY : smart_ptr
+
+# fast build rule for target.
+smart_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/build
+.PHONY : smart_ptr/fast
+
+#=============================================================================
+# Target rules for targets named test_logger
+
+# Build rule for target.
+test_logger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logger
+.PHONY : test_logger
+
+# fast build rule for target.
+test_logger/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/build
+.PHONY : test_logger/fast
+
 src/demo.o: src/demo.cpp.o
 .PHONY : src/demo.o
 
@@ -166,6 +205,54 @@ src/demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_demo.dir/build.make CMakeFiles/container_demo.dir/src/demo.cpp.s
 .PHONY : src/demo.cpp.s
 
+src/linked_list.o: src/linked_list.cpp.o
+.PHONY : src/linked_list.o
+
+# target to build an object file
+src/linked_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/src/linked_list.cpp.o
+.PHONY : src/linked_list.cpp.o
+
+src/linked_list.i: src/linked_list.cpp.i
+.PHONY : src/linked_list.i
+
+# target to preprocess a source file
+src/linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/src/linked_list.cpp.i
+.PHONY : src/linked_list.cpp.i
+
+src/linked_list.s: src/linked_list.cpp.s
+.PHONY : src/linked_list.s
+
+# target to generate assembly for a file
+src/linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_list.dir/build.make CMakeFiles/linked_list.dir/src/linked_list.cpp.s
+.PHONY : src/linked_list.cpp.s
+
+src/logger.o: src/logger.cpp.o
+.PHONY : src/logger.o
+
+# target to build an object file
+src/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/logger.cpp.o
+.PHONY : src/logger.cpp.o
+
+src/logger.i: src/logger.cpp.i
+.PHONY : src/logger.i
+
+# target to preprocess a source file
+src/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/logger.cpp.i
+.PHONY : src/logger.cpp.i
+
+src/logger.s: src/logger.cpp.s
+.PHONY : src/logger.s
+
+# target to generate assembly for a file
+src/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/logger.cpp.s
+.PHONY : src/logger.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +276,54 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ai_demo.dir/build.make CMakeFiles/ai_demo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/smart_ptr_demo.o: src/smart_ptr_demo.cpp.o
+.PHONY : src/smart_ptr_demo.o
+
+# target to build an object file
+src/smart_ptr_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/src/smart_ptr_demo.cpp.o
+.PHONY : src/smart_ptr_demo.cpp.o
+
+src/smart_ptr_demo.i: src/smart_ptr_demo.cpp.i
+.PHONY : src/smart_ptr_demo.i
+
+# target to preprocess a source file
+src/smart_ptr_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/src/smart_ptr_demo.cpp.i
+.PHONY : src/smart_ptr_demo.cpp.i
+
+src/smart_ptr_demo.s: src/smart_ptr_demo.cpp.s
+.PHONY : src/smart_ptr_demo.s
+
+# target to generate assembly for a file
+src/smart_ptr_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/src/smart_ptr_demo.cpp.s
+.PHONY : src/smart_ptr_demo.cpp.s
+
+src/test_logger.o: src/test_logger.cpp.o
+.PHONY : src/test_logger.o
+
+# target to build an object file
+src/test_logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/test_logger.cpp.o
+.PHONY : src/test_logger.cpp.o
+
+src/test_logger.i: src/test_logger.cpp.i
+.PHONY : src/test_logger.i
+
+# target to preprocess a source file
+src/test_logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/test_logger.cpp.i
+.PHONY : src/test_logger.cpp.i
+
+src/test_logger.s: src/test_logger.cpp.s
+.PHONY : src/test_logger.s
+
+# target to generate assembly for a file
+src/test_logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logger.dir/build.make CMakeFiles/test_logger.dir/src/test_logger.cpp.s
+.PHONY : src/test_logger.cpp.s
 
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
@@ -224,12 +359,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ai_demo"
 	@echo "... container_demo"
+	@echo "... linked_list"
+	@echo "... smart_ptr"
+	@echo "... test_logger"
 	@echo "... src/demo.o"
 	@echo "... src/demo.i"
 	@echo "... src/demo.s"
+	@echo "... src/linked_list.o"
+	@echo "... src/linked_list.i"
+	@echo "... src/linked_list.s"
+	@echo "... src/logger.o"
+	@echo "... src/logger.i"
+	@echo "... src/logger.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/smart_ptr_demo.o"
+	@echo "... src/smart_ptr_demo.i"
+	@echo "... src/smart_ptr_demo.s"
+	@echo "... src/test_logger.o"
+	@echo "... src/test_logger.i"
+	@echo "... src/test_logger.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
